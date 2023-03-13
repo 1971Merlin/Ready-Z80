@@ -41,11 +41,11 @@ Assuming you construct the circuit and code as per the examples given, the follo
 
 ## Example Programs
 
-The sio_circular_buffer_echo.z80 program takes any serial input and echoes it back to the sender. This tests basic communication is working
+The sio_circular_buffer_echo.z80 program takes any serial input and echoes it back to the sender. This tests basic communication is working.
 
 The sio_circular_buffer_example.z80 program demonstrates the circular buffer as follows:
 
-On the TEC's 7-seg disaplys, the first two digits display the current buffer size; the last two digits display the last value stored in the buffer. Input any serial data to see the buffer count increase & verify the data inputted.
+On the TEC's 7-seg displays, the first two digits display the current buffer size; the last two digits display the last value stored in the buffer. Input any serial data to see the buffer count increase & verify the data inputted.
 
 The middle two digits display the status:
 
